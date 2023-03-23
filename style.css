@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ul li{
+  border-bottom: 1px solid transparent;    
+  transition: all .4s ease-in;
+  color: rgb(110, 0, 0); 
+  font-size: 35px;
+}
+.ul li:hover{
+  border-color:rgba(0, 0, 0, 0.9);
+}
+.logo{
+  width: 500px;
+ }
+.icon{
+  font-size: 70px;
+  position: relative;
+}
